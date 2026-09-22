@@ -1,0 +1,45 @@
+table_name,column_name,data_type,row_count,null_count,null_percentage,distinct_value_count,minimum_value,maximum_value
+lead_log,id,int64,8,0,0.0,8,1,8
+lead_log,lead_id,object,8,0,0.0,5,08b8ab0371b6a0cb79319628505c446c,c50f607bbae83f7c53551476e11997eb
+lead_log,source_category,object,8,0,0.0,2,Offline,Online
+lead_log,created_at,object,8,0,0.0,5,2024-01-31T08:53:22.403Z,2024-05-13T06:38:58.322Z
+lead_log,preferred_location,object,8,0,0.0,3,ADITYAWARMAN,GAJAH MADA
+lead_log,timezone_location,object,8,0,0.0,1,Asia/Jakarta,Asia/Jakarta
+lead_log,current_status,object,8,0,0.0,5,Appointment,Warm
+paid_transactions,transaction_id,object,14,0,0.0,14,07f21743663aacb7d212c286d47a14de,f192fca27d438c053db425fade152d66
+paid_transactions,transaction_status,object,14,0,0.0,1,PAID,PAID
+paid_transactions,transaction_at,object,14,0,0.0,14,2024-05-01T05:07:30.374Z,2024-05-21T09:47:11.535Z
+paid_transactions,transaction_location,object,14,0,0.0,6,ADITYAWARMAN,SUNSET ROAD
+paid_transactions,timezone_transaction,object,14,0,0.0,2,Asia/Jakarta,Asia/Makassar
+paid_transactions,transaction_type,object,14,0,0.0,2,NEW,REJOIN
+referral_rewards,id,int64,3,0,0.0,3,1,3
+referral_rewards,reward_value,object,3,0,0.0,3,10 days,20 days
+referral_rewards,created_at,object,3,0,0.0,3,2024-03-13T02:44:32Z,2024-03-13T02:45:15Z
+referral_rewards,reward_type,int64,3,0,0.0,1,1,1
+user_logs,id,int64,29,0,0.0,29,1,29
+user_logs,user_id,object,29,0,0.0,9,192befbbd8b97260e28db080a661578c,f2de40c8394f4ea9a6aa49965380dd8f
+user_logs,name,object,29,0,0.0,7,003609f9b658dc89cd16d904783834d4,ec55b0c6b4cf5e7e08ddcfbc0465b796
+user_logs,phone_number,object,29,0,0.0,9,488b1d38c3a3d84ab9839886acecf5e0,f495c5b0268d9896b8478ab32bfa02eb
+user_logs,homeclub,object,29,0,0.0,6,ADITYAWARMAN,SUNSET ROAD
+user_logs,timezone_homeclub,object,29,0,0.0,2,Asia/Jakarta,Asia/Makassar
+user_logs,membership_expired_date,object,29,0,0.0,9,2024-03-31,2026-03-04
+user_logs,is_deleted,bool,29,0,0.0,2,False,True
+user_referral_logs,id,int64,96,0,0.0,96,1,96
+user_referral_logs,user_referral_id,object,96,0,0.0,78,119330b602a0e3bc0b66487b6c53ec19,ffea2078bee21f79f199256757e5d578
+user_referral_logs,source_transaction_id,object,96,79,82.29,17,0d5745a60be9f0d9163c99c91fd61efc,de0d476b360046c0d079d5f8fcb77c00
+user_referral_logs,created_at,object,96,0,0.0,96,2024-03-08T11:33:50Z,2024-07-10T08:51:11Z
+user_referral_logs,is_reward_granted,bool,96,0,0.0,2,False,True
+user_referral_statuses,id,int64,3,0,0.0,3,1,3
+user_referral_statuses,description,object,3,0,0.0,3,Berhasil,Tidak Berhasil
+user_referral_statuses,created_at,object,3,0,0.0,2,2024-03-08T08:49:37Z,2024-03-08T10:07:10Z
+user_referrals,referral_at,object,46,0,0.0,44,2024-03-08T11:31:24Z,2024-05-24T04:57:33Z
+user_referrals,referral_id,object,46,0,0.0,46,1f44ffca9257eefe62892409bce4b704,fcb804c8ff24e5b2974a7e965ebea5e8
+user_referrals,referee_id,object,46,3,6.52,37,04aec3adea13099cb24c4cc784f05f3d,f6507a982bde1dcda0ce0867ceac66f6
+user_referrals,referee_name,object,46,3,6.52,35,069396bf68713451107ed621971b8fd3,feb4d885f99957d87b2e8eb1fd05b193
+user_referrals,referee_phone,object,46,0,0.0,33,0520c1cc85cbd43be086d6067e316e39,ff6a10e68ce4c4a56e3c19238619f828
+user_referrals,referral_reward_id,float64,46,38,82.61,3,1.0,3.0
+user_referrals,referral_source,object,46,0,0.0,3,Draft Transaction,User Sign Up
+user_referrals,referrer_id,object,46,13,28.26,13,192befbbd8b97260e28db080a661578c,f2de40c8394f4ea9a6aa49965380dd8f
+user_referrals,transaction_id,object,46,13,28.26,27,07f21743663aacb7d212c286d47a14de,f192fca27d438c053db425fade152d66
+user_referrals,updated_at,object,46,0,0.0,40,2024-04-29T04:04:15Z,2024-05-24T04:57:33Z
+user_referrals,user_referral_status_id,int64,46,0,0.0,3,1,3

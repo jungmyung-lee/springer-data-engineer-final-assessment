@@ -1,0 +1,9 @@
+id,lead_id,source_category,created_at,preferred_location,timezone_location,current_status
+1,774656feb3119be1d8d6d893429c7cc0,Online,2024-05-13T06:38:58.322Z,GAJAH MADA,Asia/Jakarta,Fresh
+2,bbd3c7b2448041dc5339b23878cacd79,Online,2024-05-10T04:16:27.919Z,ADITYAWARMAN,Asia/Jakarta,Warm
+3,a90dcb9c1fc9c63f1e2dc7dbd79ecfd2,Offline,2024-01-31T08:53:22.403Z,BENHIL,Asia/Jakarta,Deal
+4,c50f607bbae83f7c53551476e11997eb,Online,2024-05-13T06:31:39.597Z,BENHIL,Asia/Jakarta,Deal
+5,08b8ab0371b6a0cb79319628505c446c,Online,2024-05-01T02:54:03.482Z,BENHIL,Asia/Jakarta,Fresh
+6,08b8ab0371b6a0cb79319628505c446c,Online,2024-05-01T02:54:03.482Z,BENHIL,Asia/Jakarta,Fresh
+7,08b8ab0371b6a0cb79319628505c446c,Online,2024-05-01T02:54:03.482Z,BENHIL,Asia/Jakarta,Maybe
+8,08b8ab0371b6a0cb79319628505c446c,Online,2024-05-01T02:54:03.482Z,BENHIL,Asia/Jakarta,Appointment
